@@ -1,0 +1,33 @@
+{
+  "name": "all-the-news-that-s-fit-to-scrape",
+  "version": "1.0.0",
+  "description": "`All the News That's Fit to Scrape` is an application that lets users scrape news articles from (website) Users can then view and leave comments on saved articles. This app uses Cheerio to scrape news from (website name.com) and stores them in MongoDB using Mongoose.\r Please Click on this [link](https://my app.herokuapp.com) to Check the App out.",
+  "main": "main.js",
+  "dependencies": {
+    "addons": "^0.1.2",
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "heroku": "^7.22.4",
+    "mongod": "^2.0.0",
+    "mongolab-data-api": "^1.1.6",
+    "mongoose": "^5.4.19"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jley914/All-the-News-That-s-Fit-to-Scrape.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jley914/All-the-News-That-s-Fit-to-Scrape/issues"
+  },
+  "homepage": "https://github.com/jley914/All-the-News-That-s-Fit-to-Scrape#readme"
+}
